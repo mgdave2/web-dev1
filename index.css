@@ -15,8 +15,9 @@ body {
   text-decoration: none;
 }
 
-.navbar a hover {
-  background-color: red;
+.navbar a:hover {
+  background-color: lightblue;
+  transition-duration: 0.4s;
 }
 
 .header {
@@ -33,7 +34,13 @@ body {
   border-radius: 50%;
 }
 
+.accordian {
+  background-color: rgb(212, 212, 212);
+  text-emphasis-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .active,
-.accordian.hover {
-  background-color: red;
+.accordian:hover {
+  background-color: lightblue;
 }
